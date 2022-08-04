@@ -1,0 +1,50 @@
+/*селекторы css*/
+/*универсальный*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*по тегу*/
+h1 {
+    color: aqua;
+    font-size: 50px; 
+    font-weight:400; 
+    background-color: rgba(255, 255, 0, 0.395);
+}
+/*по классу*/
+.blocks {
+    background-color: yellowgreen ;
+    background-image: url();
+    background: red;
+    font-size: 40px;
+    width: 400px;
+    height: 400px;
+}
+/*по id*/
+#google{
+    text-decoration: none;
+    border: 2px solid green;
+    margin: 20px;
+    padding: 40px;
+}
+
+div {
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    color: rgb(9, 230, 255);
+    margin: 10px 20px 30px 40px;
+    padding: 30px;
+    /* display: none; */
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display: block; */
+    text-align: center;
+}
+.block-size{
+    font-size: 40px;
+    font-weight: 700px;
+    border-radius: 100px;
+}
